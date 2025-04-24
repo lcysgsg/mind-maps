@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13">
   <diagram name="第 1 页" id="6Hy_IxAvYBXC9xngT40Y">
-    <mxGraphModel>
+    <mxGraphModel dx="2189" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-1" value="架构图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-2" target="U7bwt-r_kSAtZNLof3TY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-2" value="硬件设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-3" target="U7bwt-r_kSAtZNLof3TY-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-3" target="U7bwt-r_kSAtZNLof3TY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-37" value="API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U7bwt-r_kSAtZNLof3TY-36">
+          <mxGeometry x="0.0476" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-3" value=".NET" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-4" target="U7bwt-r_kSAtZNLof3TY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-4" target="U7bwt-r_kSAtZNLof3TY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-4" value="JAVA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-5" target="U7bwt-r_kSAtZNLof3TY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-5" value="页面 UNI-APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="510" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-9" target="U7bwt-r_kSAtZNLof3TY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-9" value=".NET WebView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-185" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-16" target="U7bwt-r_kSAtZNLof3TY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-16" value="安全域" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-22" value="桌面程序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-39" target="U7bwt-r_kSAtZNLof3TY-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-42" value="绑定关联登录后，自动登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U7bwt-r_kSAtZNLof3TY-40">
+          <mxGeometry x="-0.3083" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U7bwt-r_kSAtZNLof3TY-39" target="U7bwt-r_kSAtZNLof3TY-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-44" value="无门禁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U7bwt-r_kSAtZNLof3TY-43">
+          <mxGeometry x="-0.1554" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-39" value="人脸门禁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-41" value="大屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U7bwt-r_kSAtZNLof3TY-45" value="大屏人脸登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
