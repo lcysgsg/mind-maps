@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
+  <diagram name="第 1 页" id="dP1newVRMupFQbPHXq_n">
+    <mxGraphModel dx="1216" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WxdwATUEl13AGACcunoC-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="表示层" vertex="1">
+          <mxGeometry height="120" width="441" x="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="业务逻辑层" vertex="1">
+          <mxGeometry height="120" width="441" x="300" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="数据持久层" vertex="1">
+          <mxGeometry height="120" width="441" x="300" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-14" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Three.js渲染器" vertex="1">
+          <mxGeometry height="40" width="120" x="311" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-16" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="671" y="50" />
+              <mxPoint x="210" y="50" />
+              <mxPoint x="210" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2D UI界面" vertex="1">
+          <mxGeometry height="40" width="120" x="611" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-17" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="输入监听器" vertex="1">
+          <mxGeometry height="40" width="120" x="311" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-18" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="GameStateManager" vertex="1">
+          <mxGeometry height="30" width="120" x="311" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-19" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LevelManager" vertex="1">
+          <mxGeometry height="30" width="120" x="311" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-20" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" value="DynamicDifficultyManager" vertex="1">
+          <mxGeometry height="30" width="160" x="311" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-21" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="671" y="230" />
+              <mxPoint x="210" y="230" />
+              <mxPoint x="210" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PhysicsManager" vertex="1">
+          <mxGeometry height="30" width="120" x="611" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-22" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="WxdwATUEl13AGACcunoC-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="315" />
+              <mxPoint x="760" y="230" />
+              <mxPoint x="210" y="230" />
+              <mxPoint x="210" y="300" />
+            </Array>
+            <mxPoint x="671" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AudioManager" vertex="1">
+          <mxGeometry height="30" width="120" x="611" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LocalStorage 封装" vertex="1">
+          <mxGeometry height="100" width="120" x="311" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-24" edge="1" parent="1" source="WxdwATUEl13AGACcunoC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WxdwATUEl13AGACcunoC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WxdwATUEl13AGACcunoC-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="EventBus" vertex="1">
+          <mxGeometry height="440" width="110" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
